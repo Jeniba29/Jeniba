@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<title>View All</title>
+<link rel="stylesheet" href="../static/css/empstyle.css">
+
+<body background="../static/img/backgrnd7.avif">
+
+<h1>Student Details</h1>
+<table border ="1px">
+    <thead>
+        <tr>
+            <th>stu_id</th>
+            <th>stu_name</th>
+            <th>gender</th>
+            <th>dob</th>
+            <th>email</th>
+        </tr>
+    </thead>
+    {%for row in sqldata%}
+    <tr>
+        <td>{{row[0]}}</td>
+        <td>{{row[1]}}</td>
+        <td>{{row[2]}}</td>
+        <td>{{row[3]}}</td>
+        <td>{{row[4]}}</td>
+    </tr>
+    {%endfor%}
+</table>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(201, 238, 226);
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    color: blueviolet;
+}
+h2{
+    color: brown;
+
+}
+label{
+    width: 80px;
+    font-weight:bold;
+    padding-bottom: 20 px;
+    
+    
+
+}
+input{
+    width :200px;
+    padding : 5px;
+    border: 1 px;
+    border-radius: 4px;
+    padding-bottom: 20 px;
+
+
+}
+input[type="submit"]
+{
+    background-color: bisque;
+    color: rgb(70, 52, 232);
+    padding: 10px;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
